@@ -41,7 +41,7 @@ command line.
 
 ## Extended Documentation
 
-The document 'VirtualADAPT.pdf' describes the Virtual ADAPT simulation model in more detail. Please refer to this document 
+The document [VirtualADAPT.pdf](https://github.com/nasa/VirtualADAPT/blob/master/docs/VirtualADAPT.pdf) describes the Virtual ADAPT simulation model in more detail. Please refer to this document 
 for instructions on running the simulation.
 
 ## License
