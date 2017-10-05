@@ -46,7 +46,7 @@ for instructions on running the simulation.
 
 ## License
 
-This software is released under the [NASA Open Source Agreement Version 1.3](https://github.com/nasa/VirtualADAPT/blob/master/LICENSE.pdf).
+This software is released under the [NASA Open Source Agreement Version 1.3](https://github.com/nasa/VirtualADAPT/blob/master/License.pdf).
 
 ## Notices
 
