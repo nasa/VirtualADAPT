@@ -26,16 +26,14 @@ VirtualADAPT is a high-fidelity, Matlab® Simulink®-based simulation testbed th
 ## Installation
 
 For the model to execute, the fault interface GUI functions must be on the Matlab path. To do this, run the script 
-'installVirtualADAPT.m'.
+[installVirtualADAPT.m](https://github.com/nasa/VirtualADAPT/blob/master/MATLAB/installVirtualADAPT.m).
 
-The script 'uninstallVirtualADAPT.m' will remove the directories from the Matlab path.
+The script [uninstallVirtualADAPT.m](https://github.com/nasa/VirtualADAPT/blob/master/MATLAB/uninstallVirtualADAPT.m) will remove the directories from the Matlab path.
 
 
 ## Quick Start Guide
 
-To generate data, load 'VirtualADAPT.mdl' in Simulink and hit the start button. The simulation is configured to run 
-indefinitely and write data to the MATLAB workspace as a matrix of floating-point values. The 'Sensors' section of 
-the file 'Sensors And Actuators.txt' contains the sensor names which correspond to the columns of this matrix.
+To generate data, load [VirtualADAPT.mdl](https://github.com/nasa/VirtualADAPT/blob/master/MATLAB/VirtualADAPT.mdl) in Simulink and hit the start button. The simulation is configured to run indefinitely and write data to the MATLAB workspace as a matrix of floating-point values. The 'Sensors' section of the file [Sensors And Actuators.txt](https://github.com/nasa/VirtualADAPT/blob/master/MATLAB/Sensors%20and%20Actuators.txt) contains the sensor names which correspond to the columns of this matrix.
 
 To command a relay or circuit breaker, find the simulation input port for the desired actuator (eg. 'EY144_CL') and 
 double-click the switch connected to it. Because the simulation is 'solved' as quickly as possible rather than running 
@@ -60,8 +58,7 @@ command line.
 
 ## Extended Documentation
 
-The document [VirtualADAPT.pdf](https://github.com/nasa/VirtualADAPT/blob/master/docs/VirtualADAPT.pdf) describes the Virtual ADAPT simulation model in more detail. Please refer to this document 
-for instructions on running the simulation.
+The document [VirtualADAPT.pdf](https://github.com/nasa/VirtualADAPT/blob/master/docs/VirtualADAPT.pdf) describes the Virtual ADAPT simulation model in more detail. Please refer to this document for instructions on running the simulation.
 
 ## License
 
