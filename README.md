@@ -1,8 +1,16 @@
 # VirtualADAPT
 
-Matthew Daigle, matthew.j.daigle@nasa.gov, NASA Ames Research Center
-Indranil Roychoudhury, indranil.roychoudhury@nasa.gov, SGT Inc., NASA Ames Research Center
+The Advanced Diagnostic and Prognostic Testbed (ADAPT), developed at NASA Ames Research Center, is functionally representative of an electrical power system (EPS) on an exploration vehicle, and has been developed to:
+i. Serve as a technology-neutral basis for testing and evaluating software and hardware diagnostic systems,
+ii. Allow accelerated testing of diagnostic algorithms by manually or algorithmically inserting faults,
+iii. Provide a real-world physical system such that issues that might be disregarded in smaller-scale experiments and simulations are exposed,
+iv. Act as a stepping stone between pure research and deployment in aerospace systems, thus creating a concrete path to maturing diagnostic technologies, and
+v. Develop analytical methods and software architectures in support of the above goals.
 
+The ADAPT hardware includes components that can generate, store, distribute, and monitor electrical power. The EPS can deliver AC (Alternating Current) and DC (Direct Current) power to loads. A data acquisition and control system sends commands to and receives data from the EPS. The testbed operator stations are integrated into a software architecture that allows for nominal and faulty operations of the EPS, and includes a system for logging all relevant data to assess the performance of the health management applications.
+
+
+Virtual ADAPT is a high-fidelity, Matlab® Simulink®-based simulation testbed that emulates the ADAPT hardware for running offline health management experiments. This simulation testbed models all components of the ADAPT hardware within the power storage and power distribution subsystems. The physical components of the testbed, i.e., the batteries, relays, and the loads, are replaced by simulation modules that generate the same dynamic behaviors as the hardware test bed. 
 
 ## Installation
 
