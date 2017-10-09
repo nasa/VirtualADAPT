@@ -45,11 +45,11 @@ To inject ADAPT faults, use the fault injection GUI which is opened (and closed)
 is opened (and closed). Fault modes are specific to components but are of the following general modes when referring to
 parameter values:
 
-Nominal - Magnitude (M) unused. Nominal value (N) unaltered.
-Incipient - N + M*T, where T is the number of seconds since injection.
-Abrupt - (N + 1)*M
-Bias - N + M
-StuckAt - M
+* Nominal - Magnitude (M) unused. Nominal value (N) unaltered.
+* Incipient - N + M\*T, where T is the number of seconds since injection.
+* Abrupt - (N + 1)\*M
+* Bias - N + M
+* StuckAt - M
 
 Faults are added/removed to/from the Simulink model when added/removed using the GUI.
 
